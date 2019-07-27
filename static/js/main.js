@@ -86,7 +86,7 @@ function submit2Cart(itemName, itemSize, itemPrice) {
         }
     })
     if (flag == 0) {
-        itemPrice = $(this).find(".item-price").text()
+        itemPrice = $(".item-price").text()
         $(".cart-list").append(
             "<div class=\"cart-item\">" +
                 "<img src=\"static/img/tee.jpg\">" +

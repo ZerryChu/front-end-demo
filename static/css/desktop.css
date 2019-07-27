@@ -7,7 +7,7 @@
 
 .cart {
     cursor: pointer;
-    /*position: absolute;*/
+    position: absolute;
     height: 30px;
     float: left;
     margin-left: 88%;
@@ -69,7 +69,6 @@
     width: 25%;
 }
 
-/* ajustable? */
 .main {
     width: 83%;
     margin-left: 10%;
